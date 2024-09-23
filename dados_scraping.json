@@ -52788,15 +52788,15 @@
         "chute": "save",
         "coord_X": 22.9,
         "coord_Y": 56,
-        "xg": 0.037368271499872,
+        "xg": 0.062563955783844,
         "time": "Atl\u00e9tico Goianiense"
     },
     {
         "nome": "Derek Freitas",
         "chute": "block",
-        "coord_X": 27.5,
-        "coord_Y": 53.7,
-        "xg": 0.014942136593163,
+        "coord_X": 26.8,
+        "coord_Y": 49.5,
+        "xg": 0.015599148347974,
         "time": "Atl\u00e9tico Goianiense"
     },
     {
@@ -52804,23 +52804,23 @@
         "chute": "miss",
         "coord_X": 26.8,
         "coord_Y": 28.1,
-        "xg": 0.013141836971045,
+        "xg": 0.017263378947973,
         "time": "Atl\u00e9tico Goianiense"
     },
     {
         "nome": "Memphis Depay",
         "chute": "save",
-        "coord_X": 5.8,
-        "coord_Y": 39.2,
-        "xg": 0.26853334903717,
+        "coord_X": 9.4,
+        "coord_Y": 37.6,
+        "xg": 0.21575550734997,
         "time": "Corinthians"
     },
     {
         "nome": "Janderson",
         "chute": "miss",
-        "coord_X": 11.7,
-        "coord_Y": 59.3,
-        "xg": 0.15811088681221,
+        "coord_X": 12.6,
+        "coord_Y": 53.8,
+        "xg": 0.13365890085697,
         "time": "Atl\u00e9tico Goianiense"
     },
     {
@@ -52834,17 +52834,17 @@
     {
         "nome": "Memphis Depay",
         "chute": "block",
-        "coord_X": 13.3,
-        "coord_Y": 46.6,
-        "xg": 0.14784507453442,
+        "coord_X": 18.1,
+        "coord_Y": 45.6,
+        "xg": 0.079918473958969,
         "time": "Corinthians"
     },
     {
         "nome": "Gonzalo Freitas",
         "chute": "miss",
-        "coord_X": 28.9,
-        "coord_Y": 35.5,
-        "xg": 0.013994326815009,
+        "coord_X": 26,
+        "coord_Y": 39.7,
+        "xg": 0.019023770466447,
         "time": "Atl\u00e9tico Goianiense"
     },
     {
@@ -52852,7 +52852,7 @@
         "chute": "miss",
         "coord_X": 8.3,
         "coord_Y": 57.4,
-        "xg": 0.061007596552372,
+        "xg": 0.046380054205656,
         "time": "Atl\u00e9tico Goianiense"
     },
     {
@@ -52860,7 +52860,7 @@
         "chute": "save",
         "coord_X": 7.3,
         "coord_Y": 60.5,
-        "xg": 0.12269801646471,
+        "xg": 0.057402655482292,
         "time": "Atl\u00e9tico Goianiense"
     },
     {
@@ -52868,7 +52868,7 @@
         "chute": "miss",
         "coord_X": 22.3,
         "coord_Y": 42.1,
-        "xg": 0.036211609840393,
+        "xg": 0.056842003017664,
         "time": "Atl\u00e9tico Goianiense"
     },
     {
@@ -52884,7 +52884,7 @@
         "chute": "save",
         "coord_X": 23.7,
         "coord_Y": 29.9,
-        "xg": 0.016407188028097,
+        "xg": 0.016049556434155,
         "time": "Atl\u00e9tico Goianiense"
     },
     {
@@ -52896,19 +52896,11 @@
         "time": "Corinthians"
     },
     {
-        "nome": "Pedro Rangel",
-        "chute": "goal",
-        "coord_X": 1.2,
-        "coord_Y": 52.6,
-        "xg": 0,
-        "time": "Corinthians"
-    },
-    {
         "nome": "\u00c1ngel Romero",
-        "chute": "post",
-        "coord_X": 11.2,
-        "coord_Y": 53.4,
-        "xg": 0.28156718611717,
+        "chute": "goal",
+        "coord_X": 12.7,
+        "coord_Y": 55.9,
+        "xg": 0.26259231567383,
         "time": "Corinthians"
     },
     {
@@ -52924,7 +52916,7 @@
         "chute": "goal",
         "coord_X": 9.9,
         "coord_Y": 54.7,
-        "xg": 0.053742084652185,
+        "xg": 0.04975725710392,
         "time": "Corinthians"
     },
     {
@@ -52932,15 +52924,15 @@
         "chute": "miss",
         "coord_X": 25.4,
         "coord_Y": 35.1,
-        "xg": 0.021524200215936,
+        "xg": 0.035294726490974,
         "time": "Corinthians"
     },
     {
         "nome": "\u00c1ngel Romero",
         "chute": "miss",
         "coord_X": 7.3,
-        "coord_Y": 54.3,
-        "xg": 0.54262435436249,
+        "coord_Y": 57.7,
+        "xg": 0.33184358477592,
         "time": "Corinthians"
     },
     {
@@ -52964,7 +52956,7 @@
         "chute": "miss",
         "coord_X": 25.9,
         "coord_Y": 63.1,
-        "xg": 0.019699955359101,
+        "xg": 0.030774960294366,
         "time": "Corinthians"
     },
     {
@@ -52972,7 +52964,7 @@
         "chute": "block",
         "coord_X": 8.8,
         "coord_Y": 60.9,
-        "xg": 0.16256448626518,
+        "xg": 0.084474861621857,
         "time": "Corinthians"
     },
     {
@@ -52980,7 +52972,7 @@
         "chute": "save",
         "coord_X": 25.1,
         "coord_Y": 57.8,
-        "xg": 0.027308262884617,
+        "xg": 0.02674170397222,
         "time": "Corinthians"
     },
     {
@@ -52996,7 +52988,7 @@
         "chute": "block",
         "coord_X": 10.4,
         "coord_Y": 62.3,
-        "xg": 0.18543288111687,
+        "xg": 0.12585327029228,
         "time": "Corinthians"
     },
     {
@@ -53004,7 +52996,7 @@
         "chute": "miss",
         "coord_X": 29.4,
         "coord_Y": 22.9,
-        "xg": 0.010763050988317,
+        "xg": 0.015353715978563,
         "time": "Atl\u00e9tico Goianiense"
     },
     {
@@ -53012,7 +53004,7 @@
         "chute": "miss",
         "coord_X": 21.3,
         "coord_Y": 37.2,
-        "xg": 0.01275182608515,
+        "xg": 0.0074700769037008,
         "time": "Atl\u00e9tico Goianiense"
     },
     {
@@ -53026,17 +53018,17 @@
     {
         "nome": "Gabriel Baralhas",
         "chute": "miss",
-        "coord_X": 9.5,
-        "coord_Y": 56,
-        "xg": 0.044437859207392,
+        "coord_X": 9.1,
+        "coord_Y": 50.7,
+        "xg": 0.070611134171486,
         "time": "Atl\u00e9tico Goianiense"
     },
     {
         "nome": "Breno Bidon",
         "chute": "miss",
-        "coord_X": 28.1,
-        "coord_Y": 39.7,
-        "xg": 0.016775734722614,
+        "coord_X": 27.9,
+        "coord_Y": 42.7,
+        "xg": 0.0177579857409,
         "time": "Corinthians"
     },
     {
@@ -53044,15 +53036,15 @@
         "chute": "miss",
         "coord_X": 30.6,
         "coord_Y": 58.1,
-        "xg": 0.011492998339236,
+        "xg": 0.014466468244791,
         "time": "Vit\u00f3ria"
     },
     {
         "nome": "Everaldo",
         "chute": "block",
-        "coord_X": 19.7,
-        "coord_Y": 28.2,
-        "xg": 0.020448300987482,
+        "coord_X": 18.5,
+        "coord_Y": 29.5,
+        "xg": 0.025593549013138,
         "time": "Vit\u00f3ria"
     },
     {
@@ -53060,23 +53052,23 @@
         "chute": "miss",
         "coord_X": 4.7,
         "coord_Y": 51.6,
-        "xg": 0.19945076107979,
+        "xg": 0.20276522636414,
         "time": "Juventude"
     },
     {
         "nome": "Luis Mandaca",
         "chute": "miss",
-        "coord_X": 9.1,
-        "coord_Y": 58.2,
-        "xg": 0.042527988553047,
+        "coord_X": 9.4,
+        "coord_Y": 55.6,
+        "xg": 0.10097046196461,
         "time": "Juventude"
     },
     {
         "nome": "Gabriel Inoc\u00eancio",
         "chute": "save",
-        "coord_X": 20.4,
-        "coord_Y": 67.9,
-        "xg": 0.042637381702662,
+        "coord_X": 22.2,
+        "coord_Y": 68.3,
+        "xg": 0.031935416162014,
         "time": "Juventude"
     },
     {
@@ -53108,7 +53100,7 @@
         "chute": "miss",
         "coord_X": 28.1,
         "coord_Y": 53,
-        "xg": 0.011661658063531,
+        "xg": 0.014197156764567,
         "time": "Vit\u00f3ria"
     },
     {
@@ -53116,7 +53108,7 @@
         "chute": "save",
         "coord_X": 8.7,
         "coord_Y": 50.3,
-        "xg": 0.14355389773846,
+        "xg": 0.084249541163445,
         "time": "Juventude"
     },
     {
@@ -53146,9 +53138,9 @@
     {
         "nome": "Ra\u00fal C\u00e1ceres",
         "chute": "miss",
-        "coord_X": 20.2,
-        "coord_Y": 65.8,
-        "xg": 0.016908103600144,
+        "coord_X": 20.7,
+        "coord_Y": 68.3,
+        "xg": 0.012018816545606,
         "time": "Vit\u00f3ria"
     },
     {
@@ -53162,8 +53154,8 @@
     {
         "nome": "Yan Souto",
         "chute": "miss",
-        "coord_X": 33.1,
-        "coord_Y": 56.2,
+        "coord_X": 33.7,
+        "coord_Y": 58.7,
         "xg": 0.016206953674555,
         "time": "Juventude"
     },
@@ -53184,7 +53176,7 @@
         "time": "Juventude"
     },
     {
-        "nome": "Edson Carioca",
+        "nome": "Marcelinho",
         "chute": "miss",
         "coord_X": 6.3,
         "coord_Y": 43,
@@ -53194,9 +53186,9 @@
     {
         "nome": "Lucas Esteves",
         "chute": "miss",
-        "coord_X": 11.5,
-        "coord_Y": 92.6,
-        "xg": 0.02835588157177,
+        "coord_X": 12.3,
+        "coord_Y": 87.1,
+        "xg": 0.036195710301399,
         "time": "Vit\u00f3ria"
     },
     {
@@ -53566,5 +53558,1245 @@
         "coord_Y": 65.3,
         "xg": 0.078321300446987,
         "time": "Fortaleza"
+    },
+    {
+        "nome": "Fausto Vera",
+        "chute": "miss",
+        "coord_X": 11.5,
+        "coord_Y": 67.4,
+        "xg": 0.025019692257047,
+        "time": "Atl\u00e9tico Mineiro"
+    },
+    {
+        "nome": "Fausto Vera",
+        "chute": "save",
+        "coord_X": 30.2,
+        "coord_Y": 67.7,
+        "xg": 0.015873344615102,
+        "time": "Atl\u00e9tico Mineiro"
+    },
+    {
+        "nome": "Alan Kardec",
+        "chute": "miss",
+        "coord_X": 9.6,
+        "coord_Y": 55.7,
+        "xg": 0.032596781849861,
+        "time": "Atl\u00e9tico Mineiro"
+    },
+    {
+        "nome": "Lucas Evangelista",
+        "chute": "block",
+        "coord_X": 28.6,
+        "coord_Y": 54.8,
+        "xg": 0.017000108957291,
+        "time": "Red Bull Bragantino"
+    },
+    {
+        "nome": "Hulk",
+        "chute": "goal",
+        "coord_X": 13.8,
+        "coord_Y": 54.7,
+        "xg": 0.54113590717316,
+        "time": "Atl\u00e9tico Mineiro"
+    },
+    {
+        "nome": "Lucas Evangelista",
+        "chute": "post",
+        "coord_X": 10.6,
+        "coord_Y": 44,
+        "xg": 0.14451847970486,
+        "time": "Red Bull Bragantino"
+    },
+    {
+        "nome": "Eduardo Sasha",
+        "chute": "miss",
+        "coord_X": 9.3,
+        "coord_Y": 53.4,
+        "xg": 0.20245273411274,
+        "time": "Red Bull Bragantino"
+    },
+    {
+        "nome": "Deyverson",
+        "chute": "save",
+        "coord_X": 10.6,
+        "coord_Y": 57.2,
+        "xg": 0.041436374187469,
+        "time": "Atl\u00e9tico Mineiro"
+    },
+    {
+        "nome": "Eduardo Sasha",
+        "chute": "save",
+        "coord_X": 8.4,
+        "coord_Y": 51.5,
+        "xg": 0.087580397725105,
+        "time": "Red Bull Bragantino"
+    },
+    {
+        "nome": "Cadu",
+        "chute": "goal",
+        "coord_X": 9.4,
+        "coord_Y": 45.1,
+        "xg": 0.062659122049809,
+        "time": "Atl\u00e9tico Mineiro"
+    },
+    {
+        "nome": "Matheus Fernandes",
+        "chute": "miss",
+        "coord_X": 32.1,
+        "coord_Y": 75.7,
+        "xg": 0.011035948060453,
+        "time": "Red Bull Bragantino"
+    },
+    {
+        "nome": "Brahian Palacios",
+        "chute": "miss",
+        "coord_X": 22.2,
+        "coord_Y": 70.2,
+        "xg": 0.030455209314823,
+        "time": "Atl\u00e9tico Mineiro"
+    },
+    {
+        "nome": "Deyverson",
+        "chute": "goal",
+        "coord_X": 8.6,
+        "coord_Y": 49.5,
+        "xg": 0.36639866232872,
+        "time": "Atl\u00e9tico Mineiro"
+    },
+    {
+        "nome": "Brahian Palacios",
+        "chute": "save",
+        "coord_X": 18.5,
+        "coord_Y": 68.9,
+        "xg": 0.060388639569283,
+        "time": "Atl\u00e9tico Mineiro"
+    },
+    {
+        "nome": "Jhon Jhon",
+        "chute": "block",
+        "coord_X": 18.8,
+        "coord_Y": 57,
+        "xg": 0.031342688947916,
+        "time": "Red Bull Bragantino"
+    },
+    {
+        "nome": "Pedro Henrique",
+        "chute": "save",
+        "coord_X": 9.9,
+        "coord_Y": 41.2,
+        "xg": 0.067380644381046,
+        "time": "Red Bull Bragantino"
+    },
+    {
+        "nome": "Deyverson",
+        "chute": "miss",
+        "coord_X": 8.4,
+        "coord_Y": 46.1,
+        "xg": 0.084059201180935,
+        "time": "Atl\u00e9tico Mineiro"
+    },
+    {
+        "nome": "Deyverson",
+        "chute": "save",
+        "coord_X": 11.5,
+        "coord_Y": 50,
+        "xg": 0.7884,
+        "time": "Atl\u00e9tico Mineiro"
+    },
+    {
+        "nome": "Jhon Jhon",
+        "chute": "save",
+        "coord_X": 26.8,
+        "coord_Y": 37.4,
+        "xg": 0.026072010397911,
+        "time": "Red Bull Bragantino"
+    },
+    {
+        "nome": "Brahian Palacios",
+        "chute": "save",
+        "coord_X": 14,
+        "coord_Y": 58.4,
+        "xg": 0.33773368597031,
+        "time": "Atl\u00e9tico Mineiro"
+    },
+    {
+        "nome": "Alan Franco",
+        "chute": "miss",
+        "coord_X": 26,
+        "coord_Y": 37.1,
+        "xg": 0.018287232145667,
+        "time": "Atl\u00e9tico Mineiro"
+    },
+    {
+        "nome": "L\u00e1zaro",
+        "chute": "miss",
+        "coord_X": 11.1,
+        "coord_Y": 27.8,
+        "xg": 0.040890593081713,
+        "time": "Palmeiras"
+    },
+    {
+        "nome": "Richard R\u00edos",
+        "chute": "block",
+        "coord_X": 24.5,
+        "coord_Y": 72.4,
+        "xg": 0.020457334816456,
+        "time": "Palmeiras"
+    },
+    {
+        "nome": "Pablo Vegetti",
+        "chute": "miss",
+        "coord_X": 11,
+        "coord_Y": 55,
+        "xg": 0.038894921541214,
+        "time": "Vasco"
+    },
+    {
+        "nome": "L\u00e1zaro",
+        "chute": "block",
+        "coord_X": 22.3,
+        "coord_Y": 25.8,
+        "xg": 0.016065467149019,
+        "time": "Palmeiras"
+    },
+    {
+        "nome": "Puma Rodr\u00edguez",
+        "chute": "miss",
+        "coord_X": 21.5,
+        "coord_Y": 58.3,
+        "xg": 0.025792129337788,
+        "time": "Vasco"
+    },
+    {
+        "nome": "Rony",
+        "chute": "miss",
+        "coord_X": 18.5,
+        "coord_Y": 39.4,
+        "xg": 0.11833477020264,
+        "time": "Palmeiras"
+    },
+    {
+        "nome": "Mateus Carvalho",
+        "chute": "miss",
+        "coord_X": 27.4,
+        "coord_Y": 43.8,
+        "xg": 0.019257197156549,
+        "time": "Vasco"
+    },
+    {
+        "nome": "Pablo Vegetti",
+        "chute": "save",
+        "coord_X": 7.3,
+        "coord_Y": 59.3,
+        "xg": 0.059848520904779,
+        "time": "Vasco"
+    },
+    {
+        "nome": "Juan Sforza",
+        "chute": "miss",
+        "coord_X": 10.5,
+        "coord_Y": 54,
+        "xg": 0.039001807570457,
+        "time": "Vasco"
+    },
+    {
+        "nome": "Dimitri Payet",
+        "chute": "save",
+        "coord_X": 25.4,
+        "coord_Y": 33.2,
+        "xg": 0.025362428277731,
+        "time": "Vasco"
+    },
+    {
+        "nome": "Maur\u00edcio",
+        "chute": "save",
+        "coord_X": 12.1,
+        "coord_Y": 63.3,
+        "xg": 0.3630875647068,
+        "time": "Palmeiras"
+    },
+    {
+        "nome": "Gustavo G\u00f3mez",
+        "chute": "miss",
+        "coord_X": 28.6,
+        "coord_Y": 41,
+        "xg": 0.020405536517501,
+        "time": "Palmeiras"
+    },
+    {
+        "nome": "Jos\u00e9 L\u00f3pez",
+        "chute": "post",
+        "coord_X": 12,
+        "coord_Y": 49.3,
+        "xg": 0.092870220541954,
+        "time": "Palmeiras"
+    },
+    {
+        "nome": "Raphael Veiga",
+        "chute": "post",
+        "coord_X": 27.8,
+        "coord_Y": 48.9,
+        "xg": 0.027599694207311,
+        "time": "Palmeiras"
+    },
+    {
+        "nome": "Murilo",
+        "chute": "miss",
+        "coord_X": 4.9,
+        "coord_Y": 49.7,
+        "xg": 0.25852492451668,
+        "time": "Palmeiras"
+    },
+    {
+        "nome": "Maur\u00edcio",
+        "chute": "miss",
+        "coord_X": 27.6,
+        "coord_Y": 46,
+        "xg": 0.014942136593163,
+        "time": "Palmeiras"
+    },
+    {
+        "nome": "Felipe Anderson",
+        "chute": "miss",
+        "coord_X": 12.2,
+        "coord_Y": 26.2,
+        "xg": 0.027044698596001,
+        "time": "Palmeiras"
+    },
+    {
+        "nome": "David",
+        "chute": "miss",
+        "coord_X": 17.5,
+        "coord_Y": 62.2,
+        "xg": 0.032656364142895,
+        "time": "Vasco"
+    },
+    {
+        "nome": "David",
+        "chute": "save",
+        "coord_X": 28.1,
+        "coord_Y": 53.7,
+        "xg": 0.018592279404402,
+        "time": "Vasco"
+    },
+    {
+        "nome": "Dimitri Payet",
+        "chute": "miss",
+        "coord_X": 17.7,
+        "coord_Y": 69.7,
+        "xg": 0.024688983336091,
+        "time": "Vasco"
+    },
+    {
+        "nome": "Gustavo G\u00f3mez",
+        "chute": "save",
+        "coord_X": 4.9,
+        "coord_Y": 48.7,
+        "xg": 0.19247281551361,
+        "time": "Palmeiras"
+    },
+    {
+        "nome": "Juan Sforza",
+        "chute": "block",
+        "coord_X": 30.9,
+        "coord_Y": 46.2,
+        "xg": 0.015411869622767,
+        "time": "Vasco"
+    },
+    {
+        "nome": "Jos\u00e9 L\u00f3pez",
+        "chute": "goal",
+        "coord_X": 14.1,
+        "coord_Y": 48.2,
+        "xg": 0.19359043240547,
+        "time": "Palmeiras"
+    },
+    {
+        "nome": "Felipe Anderson",
+        "chute": "block",
+        "coord_X": 8,
+        "coord_Y": 59.9,
+        "xg": 0.032363336533308,
+        "time": "Palmeiras"
+    },
+    {
+        "nome": "Eliel",
+        "chute": "miss",
+        "coord_X": 10,
+        "coord_Y": 46.6,
+        "xg": 0.052938282489777,
+        "time": "Cuiab\u00e1"
+    },
+    {
+        "nome": "William",
+        "chute": "miss",
+        "coord_X": 13.5,
+        "coord_Y": 58.1,
+        "xg": 0.078068844974041,
+        "time": "Cruzeiro"
+    },
+    {
+        "nome": "\u00c1lvaro Barreal",
+        "chute": "save",
+        "coord_X": 11.2,
+        "coord_Y": 34.9,
+        "xg": 0.071441702544689,
+        "time": "Cruzeiro"
+    },
+    {
+        "nome": "\u00c1lvaro Barreal",
+        "chute": "block",
+        "coord_X": 21,
+        "coord_Y": 42.3,
+        "xg": 0.038697089999914,
+        "time": "Cruzeiro"
+    },
+    {
+        "nome": "Clayson",
+        "chute": "save",
+        "coord_X": 25.7,
+        "coord_Y": 32.4,
+        "xg": 0.035631462931633,
+        "time": "Cuiab\u00e1"
+    },
+    {
+        "nome": "Ramiro",
+        "chute": "block",
+        "coord_X": 15,
+        "coord_Y": 58.5,
+        "xg": 0.072588264942169,
+        "time": "Cruzeiro"
+    },
+    {
+        "nome": "\u00c1lvaro Barreal",
+        "chute": "block",
+        "coord_X": 15.1,
+        "coord_Y": 47.3,
+        "xg": 0.12654502689838,
+        "time": "Cruzeiro"
+    },
+    {
+        "nome": "Kaiki",
+        "chute": "miss",
+        "coord_X": 9.8,
+        "coord_Y": 33.7,
+        "xg": 0.055809695273638,
+        "time": "Cruzeiro"
+    },
+    {
+        "nome": "Clayson",
+        "chute": "miss",
+        "coord_X": 23.5,
+        "coord_Y": 33.5,
+        "xg": 0.019498515874147,
+        "time": "Cuiab\u00e1"
+    },
+    {
+        "nome": "Fernando Sobral",
+        "chute": "miss",
+        "coord_X": 30.2,
+        "coord_Y": 40.4,
+        "xg": 0.011999010108411,
+        "time": "Cuiab\u00e1"
+    },
+    {
+        "nome": "William",
+        "chute": "miss",
+        "coord_X": 18.4,
+        "coord_Y": 27.8,
+        "xg": 0.047907251864672,
+        "time": "Cruzeiro"
+    },
+    {
+        "nome": "Derik Lacerda",
+        "chute": "miss",
+        "coord_X": 25.6,
+        "coord_Y": 41.2,
+        "xg": 0.023756753653288,
+        "time": "Cuiab\u00e1"
+    },
+    {
+        "nome": "Fabrizio Peralta",
+        "chute": "miss",
+        "coord_X": 25.3,
+        "coord_Y": 38,
+        "xg": 0.0075740898028016,
+        "time": "Cruzeiro"
+    },
+    {
+        "nome": "William",
+        "chute": "block",
+        "coord_X": 10.9,
+        "coord_Y": 65.3,
+        "xg": 0.044865116477013,
+        "time": "Cruzeiro"
+    },
+    {
+        "nome": "Clayson",
+        "chute": "save",
+        "coord_X": 31.6,
+        "coord_Y": 60.2,
+        "xg": 0.01180936396122,
+        "time": "Cuiab\u00e1"
+    },
+    {
+        "nome": "Bruno Alves",
+        "chute": "save",
+        "coord_X": 7,
+        "coord_Y": 58.6,
+        "xg": 0.09668580442667,
+        "time": "Cuiab\u00e1"
+    },
+    {
+        "nome": "Lucas Fernandes",
+        "chute": "miss",
+        "coord_X": 29.5,
+        "coord_Y": 55.1,
+        "xg": 0.014602614566684,
+        "time": "Cuiab\u00e1"
+    },
+    {
+        "nome": "Gustavo Sauer",
+        "chute": "save",
+        "coord_X": 15.9,
+        "coord_Y": 57.5,
+        "xg": 0.092363871634007,
+        "time": "Cuiab\u00e1"
+    },
+    {
+        "nome": "Mateus Vital",
+        "chute": "block",
+        "coord_X": 23.3,
+        "coord_Y": 34,
+        "xg": 0.023024175316095,
+        "time": "Cruzeiro"
+    },
+    {
+        "nome": "Kaio Jorge",
+        "chute": "save",
+        "coord_X": 8,
+        "coord_Y": 43.6,
+        "xg": 0.24564282596111,
+        "time": "Cruzeiro"
+    },
+    {
+        "nome": "Kaio Jorge",
+        "chute": "block",
+        "coord_X": 12.4,
+        "coord_Y": 37.6,
+        "xg": 0.049709010869265,
+        "time": "Cruzeiro"
+    },
+    {
+        "nome": "William",
+        "chute": "miss",
+        "coord_X": 11.3,
+        "coord_Y": 72,
+        "xg": 0.031835794448853,
+        "time": "Cruzeiro"
+    },
+    {
+        "nome": "Alexander Aravena",
+        "chute": "miss",
+        "coord_X": 18.6,
+        "coord_Y": 46.5,
+        "xg": 0.066953293979168,
+        "time": "Gr\u00eamio"
+    },
+    {
+        "nome": "Wallace",
+        "chute": "miss",
+        "coord_X": 3.5,
+        "coord_Y": 68.2,
+        "xg": 0.029329411685467,
+        "time": "Flamengo"
+    },
+    {
+        "nome": "Felipe Teresa",
+        "chute": "goal",
+        "coord_X": 6.4,
+        "coord_Y": 50.7,
+        "xg": 0.30650290846825,
+        "time": "Flamengo"
+    },
+    {
+        "nome": "Evertton",
+        "chute": "save",
+        "coord_X": 9.5,
+        "coord_Y": 53.4,
+        "xg": 0.32305818796158,
+        "time": "Flamengo"
+    },
+    {
+        "nome": "Diego Costa",
+        "chute": "goal",
+        "coord_X": 8.7,
+        "coord_Y": 50.8,
+        "xg": 0.27186691761017,
+        "time": "Gr\u00eamio"
+    },
+    {
+        "nome": "Jo\u00e3o Pedro",
+        "chute": "block",
+        "coord_X": 24.3,
+        "coord_Y": 28.2,
+        "xg": 0.012820007279515,
+        "time": "Gr\u00eamio"
+    },
+    {
+        "nome": "Yeferson Soteldo",
+        "chute": "block",
+        "coord_X": 12.7,
+        "coord_Y": 34.6,
+        "xg": 0.054606638848782,
+        "time": "Gr\u00eamio"
+    },
+    {
+        "nome": "Martin Braithwaite",
+        "chute": "miss",
+        "coord_X": 24.3,
+        "coord_Y": 45,
+        "xg": 0.035795964300632,
+        "time": "Gr\u00eamio"
+    },
+    {
+        "nome": "Martin Braithwaite",
+        "chute": "goal",
+        "coord_X": 2.3,
+        "coord_Y": 47.4,
+        "xg": 0.77708631753922,
+        "time": "Gr\u00eamio"
+    },
+    {
+        "nome": "Miguel Monsalve",
+        "chute": "miss",
+        "coord_X": 14.7,
+        "coord_Y": 51.9,
+        "xg": 0.10670418292284,
+        "time": "Gr\u00eamio"
+    },
+    {
+        "nome": "Lorran",
+        "chute": "save",
+        "coord_X": 27,
+        "coord_Y": 70.2,
+        "xg": 0.013141836971045,
+        "time": "Flamengo"
+    },
+    {
+        "nome": "Ayrton Lucas",
+        "chute": "miss",
+        "coord_X": 3.7,
+        "coord_Y": 64.2,
+        "xg": 0.015791732817888,
+        "time": "Flamengo"
+    },
+    {
+        "nome": "Matheus Gon\u00e7alves",
+        "chute": "block",
+        "coord_X": 9.3,
+        "coord_Y": 67.9,
+        "xg": 0.052784521132708,
+        "time": "Flamengo"
+    },
+    {
+        "nome": "Ayrton Lucas",
+        "chute": "save",
+        "coord_X": 3.6,
+        "coord_Y": 38,
+        "xg": 0.026979418471456,
+        "time": "Flamengo"
+    },
+    {
+        "nome": "Evertton",
+        "chute": "miss",
+        "coord_X": 26.2,
+        "coord_Y": 57.9,
+        "xg": 0.019471386447549,
+        "time": "Flamengo"
+    },
+    {
+        "nome": "Jo\u00e3o Pedro",
+        "chute": "post",
+        "coord_X": 27.6,
+        "coord_Y": 60.6,
+        "xg": 0.019643522799015,
+        "time": "Gr\u00eamio"
+    },
+    {
+        "nome": "Matheus Gon\u00e7alves",
+        "chute": "save",
+        "coord_X": 26.6,
+        "coord_Y": 37.9,
+        "xg": 0.019023770466447,
+        "time": "Flamengo"
+    },
+    {
+        "nome": "Wesley Fran\u00e7a",
+        "chute": "miss",
+        "coord_X": 12.3,
+        "coord_Y": 64.9,
+        "xg": 0.077589824795723,
+        "time": "Flamengo"
+    },
+    {
+        "nome": "Walter Kannemann",
+        "chute": "miss",
+        "coord_X": 8.9,
+        "coord_Y": 54.5,
+        "xg": 0.070711694657803,
+        "time": "Gr\u00eamio"
+    },
+    {
+        "nome": "Franco Cristaldo",
+        "chute": "block",
+        "coord_X": 10.8,
+        "coord_Y": 40.2,
+        "xg": 0.045381087809801,
+        "time": "Gr\u00eamio"
+    },
+    {
+        "nome": "Carlinhos",
+        "chute": "save",
+        "coord_X": 4.2,
+        "coord_Y": 64.9,
+        "xg": 0.25218576192856,
+        "time": "Flamengo"
+    },
+    {
+        "nome": "Matheus Gon\u00e7alves",
+        "chute": "goal",
+        "coord_X": 14.1,
+        "coord_Y": 64.8,
+        "xg": 0.048414677381516,
+        "time": "Flamengo"
+    },
+    {
+        "nome": "Mathias Villasanti",
+        "chute": "block",
+        "coord_X": 14,
+        "coord_Y": 37.2,
+        "xg": 0.073101453483105,
+        "time": "Gr\u00eamio"
+    },
+    {
+        "nome": "Cleiton",
+        "chute": "miss",
+        "coord_X": 28.4,
+        "coord_Y": 30.1,
+        "xg": 0.015353715978563,
+        "time": "Flamengo"
+    },
+    {
+        "nome": "Allan",
+        "chute": "miss",
+        "coord_X": 25.5,
+        "coord_Y": 52.4,
+        "xg": 0.029328102245927,
+        "time": "Flamengo"
+    },
+    {
+        "nome": "Matheus Gon\u00e7alves",
+        "chute": "block",
+        "coord_X": 16.3,
+        "coord_Y": 63.3,
+        "xg": 0.028419410809875,
+        "time": "Flamengo"
+    },
+    {
+        "nome": "David Luiz",
+        "chute": "miss",
+        "coord_X": 5.1,
+        "coord_Y": 41,
+        "xg": 0.06355544179678,
+        "time": "Flamengo"
+    },
+    {
+        "nome": "Carlos Alcaraz",
+        "chute": "block",
+        "coord_X": 27.2,
+        "coord_Y": 41.9,
+        "xg": 0.019257197156549,
+        "time": "Flamengo"
+    },
+    {
+        "nome": "Carlos Alcaraz",
+        "chute": "block",
+        "coord_X": 21.7,
+        "coord_Y": 46.1,
+        "xg": 0.13213966786861,
+        "time": "Flamengo"
+    },
+    {
+        "nome": "Franco Cristaldo",
+        "chute": "goal",
+        "coord_X": 21.9,
+        "coord_Y": 65.6,
+        "xg": 0.024711724370718,
+        "time": "Gr\u00eamio"
+    },
+    {
+        "nome": "Matheus Gon\u00e7alves",
+        "chute": "block",
+        "coord_X": 14.1,
+        "coord_Y": 72,
+        "xg": 0.028512086719275,
+        "time": "Flamengo"
+    },
+    {
+        "nome": "Carlos Alcaraz",
+        "chute": "save",
+        "coord_X": 22,
+        "coord_Y": 74.1,
+        "xg": 0.016306363046169,
+        "time": "Flamengo"
+    },
+    {
+        "nome": "Wanderson",
+        "chute": "save",
+        "coord_X": 3,
+        "coord_Y": 67.3,
+        "xg": 0.050172228366137,
+        "time": "Internacional"
+    },
+    {
+        "nome": "Enner Valencia",
+        "chute": "block",
+        "coord_X": 24.4,
+        "coord_Y": 23.5,
+        "xg": 0.030935822054744,
+        "time": "Internacional"
+    },
+    {
+        "nome": "Erick",
+        "chute": "miss",
+        "coord_X": 22.7,
+        "coord_Y": 65.7,
+        "xg": 0.021254770457745,
+        "time": "S\u00e3o Paulo"
+    },
+    {
+        "nome": "Alan Patrick",
+        "chute": "miss",
+        "coord_X": 27,
+        "coord_Y": 31,
+        "xg": 0.014604109339416,
+        "time": "Internacional"
+    },
+    {
+        "nome": "Alan Patrick",
+        "chute": "goal",
+        "coord_X": 13.9,
+        "coord_Y": 59.3,
+        "xg": 0.058041036128998,
+        "time": "Internacional"
+    },
+    {
+        "nome": "Rafael Borr\u00e9",
+        "chute": "miss",
+        "coord_X": 6.7,
+        "coord_Y": 50.7,
+        "xg": 0.13809131085873,
+        "time": "Internacional"
+    },
+    {
+        "nome": "Thiago Maia",
+        "chute": "goal",
+        "coord_X": 15.1,
+        "coord_Y": 53.2,
+        "xg": 0.16347406804562,
+        "time": "Internacional"
+    },
+    {
+        "nome": "Wesley",
+        "chute": "block",
+        "coord_X": 12.6,
+        "coord_Y": 64.6,
+        "xg": 0.060766011476517,
+        "time": "Internacional"
+    },
+    {
+        "nome": "Dami\u00e1n Bobadilla",
+        "chute": "block",
+        "coord_X": 27.4,
+        "coord_Y": 64.6,
+        "xg": 0.021762626245618,
+        "time": "S\u00e3o Paulo"
+    },
+    {
+        "nome": "Lucas Moura",
+        "chute": "block",
+        "coord_X": 16.7,
+        "coord_Y": 35,
+        "xg": 0.035987678915262,
+        "time": "S\u00e3o Paulo"
+    },
+    {
+        "nome": "Wesley",
+        "chute": "block",
+        "coord_X": 20.4,
+        "coord_Y": 49.3,
+        "xg": 0.03509858995676,
+        "time": "Internacional"
+    },
+    {
+        "nome": "Vit\u00e3o",
+        "chute": "save",
+        "coord_X": 6.7,
+        "coord_Y": 60,
+        "xg": 0.036528799682856,
+        "time": "Internacional"
+    },
+    {
+        "nome": "Bruno Gomes",
+        "chute": "goal",
+        "coord_X": 11.9,
+        "coord_Y": 70.3,
+        "xg": 0.035054039210081,
+        "time": "Internacional"
+    },
+    {
+        "nome": "Rafael Borr\u00e9",
+        "chute": "miss",
+        "coord_X": 8.8,
+        "coord_Y": 56,
+        "xg": 0.078752309083939,
+        "time": "Internacional"
+    },
+    {
+        "nome": "Gustavo Prado",
+        "chute": "save",
+        "coord_X": 24.3,
+        "coord_Y": 41.9,
+        "xg": 0.029715407639742,
+        "time": "Internacional"
+    },
+    {
+        "nome": "Alan Patrick",
+        "chute": "miss",
+        "coord_X": 14.1,
+        "coord_Y": 43.9,
+        "xg": 0.13194914162159,
+        "time": "Internacional"
+    },
+    {
+        "nome": "Vit\u00e3o",
+        "chute": "block",
+        "coord_X": 15,
+        "coord_Y": 52.9,
+        "xg": 0.041866809129715,
+        "time": "Internacional"
+    },
+    {
+        "nome": "Dami\u00e1n Bobadilla",
+        "chute": "miss",
+        "coord_X": 14.3,
+        "coord_Y": 45.2,
+        "xg": 0.12096766382456,
+        "time": "S\u00e3o Paulo"
+    },
+    {
+        "nome": "Dami\u00e1n Bobadilla",
+        "chute": "post",
+        "coord_X": 25.7,
+        "coord_Y": 40.4,
+        "xg": 0.013385799713433,
+        "time": "S\u00e3o Paulo"
+    },
+    {
+        "nome": "Luciano",
+        "chute": "goal",
+        "coord_X": 5,
+        "coord_Y": 44.3,
+        "xg": 0.28691118955612,
+        "time": "S\u00e3o Paulo"
+    },
+    {
+        "nome": "Lucas Moura",
+        "chute": "save",
+        "coord_X": 7.1,
+        "coord_Y": 49.5,
+        "xg": 0.12486758083105,
+        "time": "S\u00e3o Paulo"
+    },
+    {
+        "nome": "Christian",
+        "chute": "miss",
+        "coord_X": 8.4,
+        "coord_Y": 40,
+        "xg": 0.032724760472775,
+        "time": "Athletico"
+    },
+    {
+        "nome": "Jhonata Robert",
+        "chute": "miss",
+        "coord_X": 16.3,
+        "coord_Y": 30.9,
+        "xg": 0.010265190154314,
+        "time": "Crici\u00fama"
+    },
+    {
+        "nome": "Arthur Ca\u00edke",
+        "chute": "block",
+        "coord_X": 18.3,
+        "coord_Y": 51.4,
+        "xg": 0.024633621796966,
+        "time": "Crici\u00fama"
+    },
+    {
+        "nome": "Marcelo Hermes",
+        "chute": "block",
+        "coord_X": 22.5,
+        "coord_Y": 32.8,
+        "xg": 0.022071432322264,
+        "time": "Crici\u00fama"
+    },
+    {
+        "nome": "Felipinho",
+        "chute": "save",
+        "coord_X": 7.8,
+        "coord_Y": 65.5,
+        "xg": 0.12052913755178,
+        "time": "Athletico"
+    },
+    {
+        "nome": "Christian",
+        "chute": "save",
+        "coord_X": 8.6,
+        "coord_Y": 41,
+        "xg": 0.063514985144138,
+        "time": "Athletico"
+    },
+    {
+        "nome": "Claudinho",
+        "chute": "miss",
+        "coord_X": 20.4,
+        "coord_Y": 52.7,
+        "xg": 0.05413743853569,
+        "time": "Crici\u00fama"
+    },
+    {
+        "nome": "Jhonata Robert",
+        "chute": "save",
+        "coord_X": 25.4,
+        "coord_Y": 32.4,
+        "xg": 0.01288225222379,
+        "time": "Crici\u00fama"
+    },
+    {
+        "nome": "Yannick Bolasie",
+        "chute": "save",
+        "coord_X": 10.9,
+        "coord_Y": 47,
+        "xg": 0.095440343022346,
+        "time": "Crici\u00fama"
+    },
+    {
+        "nome": "Tom\u00e1s Cuello",
+        "chute": "block",
+        "coord_X": 22.8,
+        "coord_Y": 28.7,
+        "xg": 0.017086502164602,
+        "time": "Athletico"
+    },
+    {
+        "nome": "Matheusinho",
+        "chute": "block",
+        "coord_X": 22,
+        "coord_Y": 50.3,
+        "xg": 0.049012556672096,
+        "time": "Crici\u00fama"
+    },
+    {
+        "nome": "Yannick Bolasie",
+        "chute": "save",
+        "coord_X": 10,
+        "coord_Y": 55.7,
+        "xg": 0.035629250109196,
+        "time": "Crici\u00fama"
+    },
+    {
+        "nome": "Yannick Bolasie",
+        "chute": "miss",
+        "coord_X": 4.7,
+        "coord_Y": 37.7,
+        "xg": 0.067078292369843,
+        "time": "Crici\u00fama"
+    },
+    {
+        "nome": "Matheusinho",
+        "chute": "miss",
+        "coord_X": 27,
+        "coord_Y": 51.5,
+        "xg": 0.030495658516884,
+        "time": "Crici\u00fama"
+    },
+    {
+        "nome": "Claudinho",
+        "chute": "miss",
+        "coord_X": 11.4,
+        "coord_Y": 39.5,
+        "xg": 0.068905986845493,
+        "time": "Crici\u00fama"
+    },
+    {
+        "nome": "Rodrigo Fagundes",
+        "chute": "block",
+        "coord_X": 13.4,
+        "coord_Y": 51.2,
+        "xg": 0.092860288918018,
+        "time": "Crici\u00fama"
+    },
+    {
+        "nome": "Newton",
+        "chute": "miss",
+        "coord_X": 5.1,
+        "coord_Y": 58.4,
+        "xg": 0.097513005137444,
+        "time": "Crici\u00fama"
+    },
+    {
+        "nome": "Allano",
+        "chute": "miss",
+        "coord_X": 27.8,
+        "coord_Y": 75.6,
+        "xg": 0.015353715978563,
+        "time": "Crici\u00fama"
+    },
+    {
+        "nome": "Allano",
+        "chute": "save",
+        "coord_X": 10,
+        "coord_Y": 58.1,
+        "xg": 0.067709155380726,
+        "time": "Crici\u00fama"
+    },
+    {
+        "nome": "Rodrigo Fagundes",
+        "chute": "block",
+        "coord_X": 9.5,
+        "coord_Y": 47.6,
+        "xg": 0.042320802807808,
+        "time": "Crici\u00fama"
+    },
+    {
+        "nome": "Tom\u00e1s Cuello",
+        "chute": "miss",
+        "coord_X": 21.1,
+        "coord_Y": 59.7,
+        "xg": 0.047900952398777,
+        "time": "Athletico"
+    },
+    {
+        "nome": "Newton",
+        "chute": "miss",
+        "coord_X": 25.1,
+        "coord_Y": 53.7,
+        "xg": 0.04190856590867,
+        "time": "Crici\u00fama"
+    },
+    {
+        "nome": "Newton",
+        "chute": "miss",
+        "coord_X": 3,
+        "coord_Y": 35.7,
+        "xg": 0.018676051869988,
+        "time": "Crici\u00fama"
+    },
+    {
+        "nome": "Rodrigo Fagundes",
+        "chute": "save",
+        "coord_X": 25,
+        "coord_Y": 51.3,
+        "xg": 0.042560145258904,
+        "time": "Crici\u00fama"
+    },
+    {
+        "nome": "Allano",
+        "chute": "block",
+        "coord_X": 8.1,
+        "coord_Y": 69.9,
+        "xg": 0.024766420945525,
+        "time": "Crici\u00fama"
+    },
+    {
+        "nome": "Tom\u00e1s Cuello",
+        "chute": "block",
+        "coord_X": 28.3,
+        "coord_Y": 56.7,
+        "xg": 0.016982046887279,
+        "time": "Athletico"
+    },
+    {
+        "nome": "Lucas Di Yorio",
+        "chute": "miss",
+        "coord_X": 5.8,
+        "coord_Y": 50.3,
+        "xg": 0.19341458380222,
+        "time": "Athletico"
+    },
+    {
+        "nome": "Allano",
+        "chute": "miss",
+        "coord_X": 6.8,
+        "coord_Y": 66.6,
+        "xg": 0.0092916740104556,
+        "time": "Crici\u00fama"
+    },
+    {
+        "nome": "Jo\u00e3o Cruz",
+        "chute": "miss",
+        "coord_X": 25.5,
+        "coord_Y": 40.4,
+        "xg": 0.023638194426894,
+        "time": "Athletico"
+    },
+    {
+        "nome": "Allano",
+        "chute": "block",
+        "coord_X": 12.7,
+        "coord_Y": 75.9,
+        "xg": 0.016023334115744,
+        "time": "Crici\u00fama"
+    },
+    {
+        "nome": "Fellipe Mateus",
+        "chute": "post",
+        "coord_X": 9.2,
+        "coord_Y": 55.8,
+        "xg": 0.29337868094444,
+        "time": "Crici\u00fama"
+    },
+    {
+        "nome": "Fellipe Mateus",
+        "chute": "miss",
+        "coord_X": 12,
+        "coord_Y": 56.2,
+        "xg": 0.055550038814545,
+        "time": "Crici\u00fama"
+    },
+    {
+        "nome": "Allano",
+        "chute": "save",
+        "coord_X": 5.3,
+        "coord_Y": 60.5,
+        "xg": 0.060709025710821,
+        "time": "Crici\u00fama"
+    },
+    {
+        "nome": "Tom\u00e1s Cuello",
+        "chute": "save",
+        "coord_X": 11.2,
+        "coord_Y": 72.4,
+        "xg": 0.040866926312447,
+        "time": "Athletico"
+    },
+    {
+        "nome": "Julimar",
+        "chute": "miss",
+        "coord_X": 15.5,
+        "coord_Y": 70.3,
+        "xg": 0.03428802639246,
+        "time": "Athletico"
     }
 ]
