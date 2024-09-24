@@ -130,4 +130,4 @@ def plot_shots(df,ax,pitch):
 plot_shots(filtered_df,ax,pitch)
 
 st.pyplot(fig)
-st.write("Pedro Bullé")
+"Pedro Bullé"
