@@ -1,133 +1,93 @@
 import streamlit as st
 import pandas as pd
 from mplsoccer import VerticalPitch
-import json,http.client
-from urllib.parse import urlparse
+import json
 
-OUTPUT_FILE = "dados_scraping.json"
-event_ids = [12116983, 12116974, 12116977, 12116980, 12116981, 12116982, 12116979, 12116978, 12116975, 12116976, 12116976, 12116986, 12116984, 12116990, 12116985, 12116991, 12116993, 12116989, 12116987, 12116988, 12376683, 12116997, 12116994, 12117000, 12116995, 12117001, 12116999, 12116996, 12117002, 12116998, 12479063, 12117008, 12117012, 12117006, 12117007, 12117009, 12117011, 12117013, 12117004, 12117010, 12117017, 12117020, 12117019, 12117021, 12117016, 12117018, 12117022, 12376871, 12629260, 12117027, 12117032, 12117031, 12117026, 12117028, 12376912, 12629257, 12357242, 12369730, 12357205, 12357233, 12357219, 12357241, 12357197, 12357227, 12357218, 12357263, 12359685, 12357122, 12357103, 12357177, 12357104, 12357143, 12357186, 12357162, 12356168, 12117060, 12117057, 12117061, 12117059, 12117056, 12117063, 12117062, 12117054, 12117058, 12117055, 12117072, 12117068, 12117071, 12117073, 12117070, 12117065, 12117064, 12117066, 12117067, 12117069, 12117083, 12117082, 12117081, 12117076, 12117077, 12117075, 12117079, 12117080, 12117088, 12117085, 12117092, 12117089, 12117093, 12117086, 12117091, 12117084, 12117087, 12117090, 12117102, 12117098, 12117095, 12117101, 12117094, 12117100, 12117103, 12117097, 12117096, 12117099, 12117112, 12117113, 12117108, 12117111, 12117105, 12117110, 12117106, 12117104, 12117109, 12117107, 12117117, 12117120, 12117115, 12117121, 12117123, 12117114, 12117122, 12117119, 12117116, 12117118, 12117124, 12117131, 12117128, 12117133, 12117125, 12117126, 12731927, 12117136, 12117135, 12117143, 12117139, 12117142, 12117140, 12117138, 12117141, 12117147, 12117148, 12117149, 12117144, 12117145, 12117146, 12117151, 12117153, 12117150, 12117152, 12117154, 12117155, 12117160, 12117156, 12117162, 12117157, 12117159, 12727203, 12785268, 12117173, 12117169, 12117166, 12117168, 12117171, 12117170, 12117167, 12117165, 12117172, 12117164, 12117176, 12117178, 12117182, 12117183, 12117180, 12117181, 12117179, 12117177, 12117174, 12117175, 12117191, 12117192, 12117189, 12117185, 12117188, 12117193, 12117186, 12117187, 12117190, 12117184, 12117195, 12117194, 12117200, 12117197, 12117202, 12117203, 12117199, 12117201, 12117198, 12117196, 12117212, 12117209, 12117205, 12117206, 12117213, 12117211, 12117210, 12117204, 12117207, 12117208, 12117222, 12117218, 12117215, 12117214, 12117219, 12117221, 12117217, 12117223, 12117220, 12117216, 12117232, 12117231, 12117228, 12117233, 12117229, 12117230, 12117226, 12117225, 12117227, 12117224, 12117239, 12117236, 12117237, 12117241, 12117235, 12117238, 12117242, 12117234, 12117240, 12117243, 12116983, 12116974, 12116977, 12116980, 12116981, 12116982, 12116979, 12116978, 12116975, 12116976, 12116986, 12116992, 12116984, 12116990, 12116985, 12116991, 12116993, 12116989, 12116987, 12116988, 12376683, 12116997, 12116994, 12117000, 12116995, 12117001, 12116999, 12116996, 12117002, 12116998, 12479063, 12117008, 12117012, 12117006, 12117007, 12117009, 12117005, 12117011, 12117013, 12117004, 12117010, 12117017, 12117020, 12117019, 12117021, 12117016, 12117018, 12117022, 12376871, 12629260, 12860733, 12117027, 12117032, 12117031, 12117029, 12117026, 12117028, 12117030, 12376912, 12629257, 12943807, 12357242, 12369730, 12357205, 12357233, 12357219, 12357241, 12357197, 12357227, 12357218, 12357263, 12357114, 12359685, 12357122, 12357103, 12357177, 12357104, 12357143, 12357186, 12357162, 12356168, 12117060, 12117057, 12117061, 12117059, 12117056, 12117063, 12117062, 12117054, 12117058, 12117055, 12117072, 12117068, 12117071, 12117073, 12117070, 12117065, 12117064, 12117066, 12117067, 12117069, 12117083, 12117074, 12117082, 12117078, 12117081, 12117076, 12117077, 12117075, 12117079, 12117080, 12117088, 12117085, 12117092, 12117089, 12117093, 12117086, 12117091, 12117084, 12117087, 12117090, 12117102, 12117098, 12117095, 12117101, 12117094, 12117100, 12117103, 12117097, 12117096, 12117099, 12117112, 12117113, 12117108, 12117111, 12117105, 12117110, 12117106, 12117104, 12117109, 12117107, 12117117, 12117120, 12117115, 12117121, 12117123, 12117114, 12117122, 12117119, 12117116, 12117118, 12117130, 12117124, 12117131, 12117132, 12117128, 12117129, 12117133, 12117127, 12117125, 12117126, 12731927, 12851651, 12117136, 12117135, 12117143, 12117139, 12117137, 12117134, 12117142, 12117140, 12117138, 12117141, 12946543, 12946553, 12117147, 12117148, 12117149, 12117144, 12117145, 12117146, 12117151, 12117153, 12117150, 12117152, 12117161, 12117163, 12117154, 12117158, 12117155, 12117160, 12117156, 12117162, 12117157, 12117159, 12727203, 12785268, 12767385, 12117173, 12117169, 12117166, 12117168, 12117171, 12117170, 12117167, 12117165, 12117172, 12117164, 12117176, 12117178, 12117182, 12117183, 12117180, 12117181, 12117179, 12117177, 12117174, 12117175, 12117191, 12117192, 12117189, 12117185, 12117188, 12117193, 12117186, 12117187, 12117190, 12117184, 12117195, 12117194, 12117200, 12117197, 12117202, 12117203, 12117199, 12117201, 12117198, 12117196, 12117212, 12117209, 12117205, 12117206, 12117213, 12117211, 12117210, 12117204, 12117207, 12117208, 12117222, 12117218, 12117215, 12117214, 12117219, 12117221, 12117217, 12117223, 12117220, 12117216, 12117232, 12117231, 12117228, 12117233, 12117229, 12117230, 12117226, 12117225, 12117227, 12117224, 12117239, 12117236, 12117237, 12117241, 12117235, 12117238, 12117242, 12117234, 12117240, 12117243, 12117249, 12117248, 12117253, 12117252, 12117251, 12117250, 12117246, 12117245, 12117244, 12117247, 12117263, 12117257, 12117254, 12117261, 12117255, 12117260, 12117256, 12117259, 12117262, 12117258]
-jogadores_info =[]
+# --- Título da Aplicação ---
+st.set_page_config(layout="wide")
+st.title("Brasileirão Série A 2024 - Análise de Chutes ⚽")
+st.markdown("Use os filtros abaixo para visualizar os chutes a gol de cada time e jogador.")
 
-def obter_dados(event_id):
+# --- Carregamento de Dados (APENAS DO ARQUIVO LOCAL) ---
+ARQUIVO_DADOS = "dados_brasileirao.json"
+
+@st.cache_data
+def carregar_dados(caminho_arquivo):
+    """
+    Função para carregar os dados do arquivo JSON.
+    O decorador @st.cache_data garante que os dados sejam carregados apenas uma vez.
+    """
+    try:
+        with open(caminho_arquivo, 'r', encoding='utf-8') as f:
+            dados = json.load(f)
+        df = pd.DataFrame(dados)
+        # Converter colunas para tipo numérico, tratando erros
+        df['coord_X'] = pd.to_numeric(df['coord_X'], errors='coerce')
+        df['coord_Y'] = pd.to_numeric(df['coord_Y'], errors='coerce')
+        df['xg'] = pd.to_numeric(df['xg'], errors='coerce')
+        # Remover linhas onde a conversão falhou
+        df.dropna(subset=['coord_X', 'coord_Y', 'xg'], inplace=True)
+        return df
+    except FileNotFoundError:
+        st.error(f"Erro: Arquivo de dados '{caminho_arquivo}' não encontrado. Por favor, execute o script 'scraper.py' primeiro.")
+        return pd.DataFrame() # Retorna um DataFrame vazio se o arquivo não existir
+
+df = carregar_dados(ARQUIVO_DADOS)
+
+if not df.empty:
+    # --- Barra Lateral de Filtros ---
+    st.sidebar.header("Filtros")
     
-    #scrapping dados de shotmap
-    url = f"https://www.sofascore.com/api/v1/event/{event_id}/shotmap"
-    parsed_url = urlparse(url)
-    conn = http.client.HTTPSConnection(parsed_url.netloc)
-    conn.request("GET",parsed_url.path)
-    res = conn.getresponse()
-    data = res.read()
-    jsondata=json.loads(data.decode("utf-8"))
+    times_disponiveis = sorted(df['time'].unique())
+    time_selecionado = st.sidebar.selectbox('Selecione um time', times_disponiveis, index=None, placeholder="Todos os times")
 
-    #scrapping dados de casa/fora
-    url2 = f"https://www.sofascore.com/api/v1/event/{event_id}"
-    parsed_url2 = urlparse(url2)
-    conn2 = http.client.HTTPSConnection(parsed_url2.netloc)
-    conn2.request("GET",parsed_url2.path)
-    res2 = conn2.getresponse()
-    data2 = res2.read()
-    jsondata2 = json.loads(data2.decode("utf-8"))
-
-
-    #DF CASA/FORA
-    casa = jsondata2['event']['homeTeam']['name']
-    fora = jsondata2['event']['awayTeam']['name']
-
-    #DF SHOTMAP
-    if 'shotmap' in jsondata and jsondata['shotmap']:
-        dados = jsondata['shotmap']
-
-        for jogador in dados:
-            nome = jogador['player']['name']
-            chute = jogador['shotType']
-            coord_X = jogador['playerCoordinates']['x']
-            coord_Y = jogador['playerCoordinates']['y']
-            xg = jogador.get('xg',0)
-            isHome = jogador['isHome']
-            time = casa if isHome else fora
-
-            jogadores_info.append({
-                'nome': nome,
-                'chute':chute,
-                'coord_X': coord_X,
-                'coord_Y': coord_Y,
-                'xg': xg,
-                'time': time
-            })
+    # Filtra o DataFrame baseado no time selecionado
+    if time_selecionado:
+        df_filtrado_time = df[df['time'] == time_selecionado]
     else:
-        print(f"Sem dados de shotmap para o evento {event_id}")
+        df_filtrado_time = df
 
-def obter_ids(rodada):
-    i = 1
-    while i <= rodada:
-        url_id = f"https://www.sofascore.com/api/v1/unique-tournament/325/season/58766/events/round/{i}"
-        print(url_id)
-        parsed_url_id = urlparse(url_id)
-        conn_id = http.client.HTTPSConnection(parsed_url_id.netloc)
-        conn_id.request("GET",parsed_url_id.path)
-        res_id = conn_id.getresponse()
-        data_id = res_id.read()
-        jsondata_id=json.loads(data_id.decode("utf-8"))
-        
-        ids = jsondata_id['events']
-
-        for tags in ids:
-            tag = tags['id']
-
-            event_ids.append(tag)
-        i +=1
-    print(event_ids)
-
-def salvar_dados_em_arquivo(dados, file_name):
-    with open(file_name, 'w') as f:
-        json.dump(dados, f, indent=4)
-
-def carregar_dados_json(file_name):
-    with open(file_name, 'r') as f:
-        dados = json.load(f)
-    return dados
-
-
-for event_id in event_ids:
-    obter_dados(event_id)
-
-salvar_dados_em_arquivo(jogadores_info,OUTPUT_FILE)
-
-jogadores_info = carregar_dados_json(OUTPUT_FILE)
-
-df = pd.DataFrame(jogadores_info)
-
-st.title("Brasileirão Série A 2024")
-st.subheader("Filtre por qualquer time/jogador e veja todos os chutes!")
-time = st.selectbox('Selecione um time',df['time'].sort_values().unique(),index=None)
-jogador = st.selectbox('Selecione um jogador',df[df['time'] == time]['nome'].sort_values().unique(),index=None)
-
-def filter_data(df,time,jogador):
-    if time:
-        df =df[df['time']==time]
-    if jogador:
-        df =df[df['nome']==jogador]
+    jogadores_disponiveis = sorted(df_filtrado_time['nome'].unique())
+    jogador_selecionado = st.sidebar.selectbox('Selecione um jogador', jogadores_disponiveis, index=None, placeholder="Todos os jogadores")
     
-    return df
+    # Filtra o DataFrame final baseado no jogador
+    if jogador_selecionado:
+        df_final = df_filtrado_time[df_filtrado_time['nome'] == jogador_selecionado]
+    else:
+        df_final = df_filtrado_time
 
-filtered_df = filter_data(df,time,jogador)
+    # --- Exibição Principal ---
+    col1, col2 = st.columns((1, 1.5))
 
-pitch = VerticalPitch(pitch_type='opta', half=True)
-fig, ax = pitch.draw(figsize=(10,10))
+    with col1:
+        st.subheader("Estatísticas Gerais")
+        total_chutes = len(df_final)
+        total_gols = len(df_final[df_final['chute'] == 'goal'])
+        total_xg = df_final['xg'].sum()
+        
+        st.metric("Total de Chutes", f"{total_chutes}")
+        st.metric("Total de Gols", f"{total_gols}")
+        st.metric("xG (Gols Esperados) Total", f"{total_xg:.2f}")
 
-def plot_shots(df,ax,pitch):
-    for x in df.to_dict(orient = 'records'):
-        pitch.scatter(
-            x=100 - float(x['coord_X']),
-            y=100 - float(x['coord_Y']),
-            ax=ax,
-            s=1000 * x['xg'],
-            color='green' if x['chute'] == 'goal' else 'white',
-            edgecolors='black',
-            alpha=1 if x['chute'] == 'goal' else 0.5,
-            zorder=2 if x['chute'] == 'goal' else 1
-        )
+        st.subheader("Top 5 Finalizadores")
+        st.dataframe(df_final.groupby('nome')['chute'].count().nlargest(5).reset_index(name='Chutes'))
 
-plot_shots(filtered_df,ax,pitch)
+    with col2:
+        st.subheader("Mapa de Chutes")
+        pitch = VerticalPitch(pitch_type='opta', half=True, pad_bottom=-20)
+        fig, ax = pitch.draw(figsize=(10, 10))
 
-st.pyplot(fig)
+        # Plota os chutes
+        for _, chute in df_final.iterrows():
+            pitch.scatter(
+                x=100 - chute['coord_X'],
+                y=100 - chute['coord_Y'],
+                ax=ax,
+                s=700 * chute['xg'],  # Tamanho da bola proporcional ao xG
+                c='green' if chute['chute'] == 'goal' else 'white',
+                edgecolors='black',
+                alpha=1 if chute['chute'] == 'goal' else 0.7,
+                zorder=2
+            )
+        
+        st.pyplot(fig)
